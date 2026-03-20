@@ -1,3 +1,16 @@
+## 2026-03-20
+
+### Additions and New Features
+
+- Rewrote `README.md` to describe the linear equation solver project, replacing starter-template boilerplate.
+- Created `docs/INSTALL.md` with Python 3.12 setup and dependency instructions.
+- Created `docs/USAGE.md` with run command and feature list.
+- Created `gauss_solver.py` with Gaussian elimination using exact `fractions.Fraction` arithmetic, partial pivoting, step recording, LaTeX rendering, and random system generation for unique, inconsistent, and dependent systems.
+- Created `linear_solver.py` Streamlit app with sidebar controls (variable count 2-6, detail level, system type), dynamic coefficient input grid, randomize button, progressive step-by-step reveal, and outcome-specific display (success/error/warning).
+- Created `tests/test_gauss_solver.py` with 13 unit tests covering unique, inconsistent, and dependent systems, fraction output verification, random generation, LaTeX output, and variable naming.
+- Added `run.sh` convenience script for launching the app.
+- Added `streamlit` to `pip_requirements.txt`.
+
 ## 2026-02-25
 
 ### Fixes and Maintenance
